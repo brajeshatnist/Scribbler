@@ -1,0 +1,187 @@
+html{
+  height: 100%;
+  width:100%
+}
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+.modal-content{
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 20%;
+}
+
+.modal-head {
+  display: flex;
+  flex-direction: column;
+}
+
+.close {
+  display: flex;
+  align-self: flex-end;
+  cursor: pointer;
+}
+
+.modal-title{
+  align-self: center;
+  font-family: Abel;
+}
+
+.modal-title-left{
+  align-self: left;
+  font-family: Abel;
+}
+
+input {
+  padding: 10px;
+  outline: none;
+  font-family: Abel;
+}
+
+.title-input-text {
+  padding: 10px;
+  outline: 1;
+  font-family: Abel;
+  background-color: rgb(195, 195, 195);
+}
+
+.label-text {
+  font-weight: bold;
+  margin: 10px 0;
+  font-family: Abel;
+}	
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+#create-post-form {
+  display: flex;
+  flex-direction: column;
+  height: 80%;
+}
+
+#main-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 100%;
+  width: 100%;
+}
+
+.login-buttons-container{
+  padding: 10px;
+}
+
+.scribbler-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.blue-button{
+  background-color: blue;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 5px;
+  padding-left:5px;
+  color:white;
+  font-size: 14px;
+}
+
+.scribbler{
+  font-family: 'Montez', cursive; 
+  font-size: 30px;
+  color: blue;
+  margin: 0;
+}
+
+.create-btn{
+  margin-top: 10px;
+  background-color: green;
+  font-size: 14px;
+  width:100px;
+  color: white;
+  padding: 10px;
+  align-self: center;
+  font-family: Abel;
+}
+.post-modal-content{
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 70%;
+  height: 90%;
+}
+
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.sub-scribbler{
+  font-family: 'Marck Script', cursive;
+  font-size: 10;
+  color: black;
+  margin: 0;
+}
+
+.yellow-button{
+    background-color: yellow;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 5px;
+    padding-left:5px;
+    color:black;
+    font-size: 14px;
+    margin-left: 10px
+}
+.postButtons{
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.signin-btn {
+  background-color: green;
+  padding: 10px;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  margin-top: 20px;
+  cursor: pointer;
+  font-family: Abel;
+}
+
+.signup{
+  color: blue;
+  font-weight: bolder;
+  margin-left: 10px;
+  cursor: pointer;
+  font-family: Abel;
+}
+
+.bottom-banner{
+  font-family: Abel;  
+  text-align: center;
+}

@@ -1,0 +1,16 @@
+.indexbody {
+    background-image: url('../images/background.jpg');
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: center center;
+   background-size: cover;
+   margin: 0 !important;
+   background-size: 100% cover!important;
+   overflow:hidden;
+   display: block;
+   height: 100%;
+}
+textarea{
+  margin-top: 10px;
+  background-color: rgb(195, 195, 195);  
+}
